@@ -11869,7 +11869,7 @@ button.discussion-sidebar-toggle {
     box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.25)
 }
 
-.marketing-section-sign-up {
+.marketing-section-signup {
     position: relative;
     padding-top: 80px;
     padding-bottom: 80px;
@@ -11877,7 +11877,7 @@ button.discussion-sidebar-toggle {
     background: #202021 url("/images/modules/home/octicons-bg.png") center repeat
 }
 
-.marketing-section-sign-up .heading {
+.marketing-section-signup .heading {
     padding-top: 50px;
     margin-top: 0;
     font-size: 62px;
@@ -11887,7 +11887,7 @@ button.discussion-sidebar-toggle {
     letter-spacing: -1px
 }
 
-.marketing-section-sign-up .subheading {
+.marketing-section-signup .subheading {
     margin: 10px 0 0;
     font-size: 21px;
     font-weight: 300;
@@ -11896,15 +11896,15 @@ button.discussion-sidebar-toggle {
     letter-spacing: 0.2px
 }
 
-.marketing-section-sign-up .subheading a {
+.marketing-section-signup .subheading a {
     font-weight: normal
 }
 
-.marketing-section-sign-up.logged-in {
+.marketing-section-signup.logged-in {
     text-align: center
 }
 
-.marketing-section-sign-up.logged-in .heading {
+.marketing-section-signup.logged-in .heading {
     padding-top: 0
 }
 
