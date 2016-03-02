@@ -95,7 +95,7 @@
             width: 980px;
             margin-left: auto;
             margin-right: auto;
-            margin-bottom: 50px;
+            /*margin-bottom: 50px;*/
         }
 
         .form-sign-up-home {
@@ -226,7 +226,7 @@
 
         .column {
             float: left;
-            /*padding: 20px 25px 40px;*/
+            padding: 20px 25px 40px;
         }
 
         .one-half {
@@ -264,6 +264,50 @@
             right: -3px
         }
 
+        .site-footer-container {
+
+        }
+
+        .site-footer {
+            margin-top: 0;
+            border-top: 0;
+            position: relative;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            font-size: 12px;
+            line-height: 1.5;
+            color: #767676;
+        }
+
+        .site-footer-links {
+            margin: 0;
+            list-style: none;
+        }
+
+        .site-footer-links li {
+            display: inline-block;
+            margin-left: 10px;
+            font: 12px / 1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean,
+            sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        }
+
+        .right {
+            float: right;
+        }
+
+        .octicon-mark-github {
+            position: absolute;
+            top: 38px;
+            left: 50%;
+            margin-left: -12px;
+            font-size: 24px;
+            color: #ccc;
+            overflow: hidden;
+        }
+
+        .firstStyle {
+            margin-bottom: 50px;
+        }
     </style>
 </head>
 <body style="min-width: 1020px;font-size: 15px;color: #333;background-color: #fff;word-wrap: break-word;margin: 0">
@@ -286,7 +330,7 @@
 </div>
 <div role="main" class="main-content">
     <div class="marketing-section-sign-up">
-        <div class="container">
+        <div class="container firstStyle">
             <form action="/" method="get" class="form-sign-up-home">
                 <dl class="form">
                     <dd class="dd-margin">
@@ -418,6 +462,60 @@
         </div>
     </div>
 </div>
-
+<div class="container site-footer-container" style="margin-bottom: 0">
+    <div class="site-footer" role="contentinfo">
+        <ul class="site-footer-links right">
+            <li>
+                <a href="/">Status</a>
+            </li>
+            <li>
+                <a href="/">API</a>
+            </li>
+            <li>
+                <a href="/">Training</a>
+            </li>
+            <li>
+                <a href="/">Shop</a>
+            </li>
+            <li>
+                <a href="/">Blog</a>
+            </li>
+            <li>
+                <a href="/">About</a>
+            </li>
+            <li>
+                <a href="/">Pricing</a>
+            </li>
+        </ul>
+        <a href="/" aria-label="Homepage">
+            <svg aria-hidden="true" class="octicon octicon-mark-github" role="img" version="1.1"
+                 width="24" height="24" fill="#ccc" viewBox="0 0 16 16">
+                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59 0.4 0.07 0.55-0.17 0.55-0.38 0-0.19-0.01-0.82-0.01-1.49-2.01 0.37-2.53-0.49-2.69-0.94-0.09-0.23-0.48-0.94-0.82-1.13-0.28-0.15-0.68-0.52-0.01-0.53 0.63-0.01 1.08 0.58 1.23 0.82 0.72 1.21 1.87 0.87 2.33 0.66 0.07-0.52 0.28-0.87 0.51-1.07-1.78-0.2-3.64-0.89-3.64-3.95 0-0.87 0.31-1.59 0.82-2.15-0.08-0.2-0.36-1.02 0.08-2.12 0 0 0.67-0.21 2.2 0.82 0.64-0.18 1.32-0.27 2-0.27 0.68 0 1.36 0.09 2 0.27 1.53-1.04 2.2-0.82 2.2-0.82 0.44 1.1 0.16 1.92 0.08 2.12 0.51 0.56 0.82 1.27 0.82 2.15 0 3.07-1.87 3.75-3.65 3.95 0.29 0.25 0.54 0.73 0.54 1.48 0 1.07-0.01 1.93-0.01 2.2 0 0.21 0.15 0.46 0.55 0.38C13.71 14.53 16 11.53 16 8 16 3.58 12.42 0 8 0z"></path>
+            </svg>
+        </a>
+        <ul class="site-footer-links" style="padding-left: 0">
+            <li style="margin-left: 0">
+                © 2016
+                <span>GitHub</span>,
+                Inc.
+            </li>
+            <li>
+                <a href="/">Terms</a>
+            </li>
+            <li>
+                <a href="/">Privacy</a>
+            </li>
+            <li>
+                <a href="/">Security</a>
+            </li>
+            <li>
+                <a href="/">Contact</a>
+            </li>
+            <li>
+                <a href="/">Help</a>
+            </li>
+        </ul>
+    </div>
+</div>
 </body>
 </html>
