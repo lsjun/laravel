@@ -70,7 +70,7 @@
             padding-top: 40px;
             padding-bottom: 80px;
             text-shadow: 0 1px 3px #222;
-            background: #202021 url("https://assets-cdn.github.com/images/modules/home/octicons-bg.png") center repeat
+            background: #202021 url(/image/octicons-bg.png) repeat center;
         }
 
         .marketing-section-sign-up .heading {
@@ -376,7 +376,7 @@
         <div class="container marketing-header">
             <h1>Want to use GitHub on your servers?</h1>
             <a href="/" class="btn btn-marketing">Learn more about GitHub Enterprise.</a>
-            <img src="https://assets-cdn.github.com/images/modules/home/gh-enterprise-code.png"
+            <img src="/image/gh-enterprise.png"
                  class="marketing-section-img">
         </div>
         <div class="marketing-section-depth"></div>
@@ -456,7 +456,7 @@
                 <a href="/" class="btn btn-sign-up" style="border-color: #5ca941">
                     Find out more
                 </a>
-                <img src="https://assets-cdn.github.com/images/modules/home/desktop-mac.png?v=1"
+                <img src="/image/desktop-mac.png"
                      class="marketing-section-img">
             </div>
         </div>
